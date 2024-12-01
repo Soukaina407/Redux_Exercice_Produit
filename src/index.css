@@ -1,0 +1,70 @@
+/* Style de base pour la table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  /* Style pour les en-têtes de la table */
+  th {
+    background-color: #634431;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style pour les cellules de la table */
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style pour les lignes impaires */
+  tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style pour les lignes survolées */
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style des boutons */
+  button {
+    background-color: #008CBA; /* Couleur bleu */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Style pour les boutons lors du survol */
+  button:hover {
+    background-color: #007B9E;
+  }
+  
+  /* Style pour les boutons supprimer */
+  button:first-child {
+    background-color: #f44336; /* Rouge */
+  }
+  
+  button:first-child:hover {
+    background-color: #e53935;
+  }
+  
+  /* Style pour les boutons modifier */
+  button:last-child {
+    background-color: #aa8f4e; /* Vert */
+  }
+  
+  button:last-child:hover {
+    background-color: #499824;
+  }
+  
